@@ -106,3 +106,16 @@ function displayResultPassive(data) {
 }
 // Display sum using only one function call
 const ans = sumCallback(1, 2, displayResult);
+
+// setTimeOut in Javascript
+function greetPeople(name) {
+  console.log("Hello " + name);
+}
+setTimeout(() => {
+  greetPeople("Mohan");
+}, 2000);
+
+// setInterval in Javascript
+setInterval(() => {
+  console.log("Hello Everyone : ", Date.now());
+}, 5000);
