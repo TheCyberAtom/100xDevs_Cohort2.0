@@ -35,12 +35,24 @@ const port = 3000;
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 });
-```
 
 // express-server/index.js
-
-```
 app.get("/", (req, res) => {
   // ... (GET endpoint code)
+});
+
+// express-server/index.js
+app.post("/", (req, res) => {
+  // ... (POST endpoint code)
+});
+
+// express-server/index.js
+app.put("/", (req, res) => {
+  // ... (PUT endpoint code)
+});
+
+// express-server/index.js
+app.delete("/", (req, res) => {
+  // ... (DELETE endpoint code)
 });
 ```
