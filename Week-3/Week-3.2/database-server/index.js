@@ -4,9 +4,7 @@ const express = require("express");
 const app = express();
 app.use(express.json());
 
-mongoose.connect(
-  "mongodb+srv://darkhood:Rahul518812@cluster0.n1l7nuy.mongodb.net/user_app"
-);
+mongoose.connect("mondoDB connwction url");
 
 const UserModel = mongoose.model("Users", {
   name: String,
